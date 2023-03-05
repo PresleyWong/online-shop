@@ -17,14 +17,14 @@ const Header = () => {
 
   const Brand = () => (
     <div className="absolute top-2/4 left-2/4 -translate-x-2/4 -translate-y-2/4 hidden lg:block">
-      <a href="/" className="flex gap-x-2 items-center text-2xl">
+      <Link to="/" className="flex gap-x-2 items-center text-2xl">
         <img
           className="h-7 w-auto"
           src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
           alt="Online Shop"
         />
         Online Shop
-      </a>
+      </Link>
     </div>
   );
 
