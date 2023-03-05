@@ -14,10 +14,9 @@ const Carousel = () => {
           style={{ backfaceVisibility: "hidden" }}
         >
           <img
-            loading="lazy"
-            src="online-shop/img/banner-1.jpg"
+            src="/online-shop/assets/img/banner-1.jpg"
             className="block w-full"
-            alt="..."
+            alt="banner1"
           />
           <div className="absolute inset-x-[15%] bottom-5 hidden py-5 text-center text-white md:block">
             <h5 className="text-xl">Apple</h5>
@@ -30,10 +29,9 @@ const Carousel = () => {
           style={{ backfaceVisibility: "hidden" }}
         >
           <img
-            loading="lazy"
-            src="online-shop/img/banner-2.jpg"
+            src="/online-shop/assets/img/banner-2.jpg"
             className="block w-full"
-            alt="..."
+            alt="banner2"
           />
           <div className="absolute inset-x-[15%] bottom-5 hidden py-5 text-center text-white md:block">
             <h5 className="text-xl">Samsung</h5>
