@@ -13,7 +13,7 @@ import Category from "./pages/Category";
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Layout>
         <Routes>
           <Route path="/" element={<Homepage />} />
@@ -25,7 +25,7 @@ const App = () => {
           <Route path="*" element={<Missing />} />
         </Routes>
       </Layout>
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 
