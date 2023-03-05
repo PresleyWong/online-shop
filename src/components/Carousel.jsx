@@ -15,7 +15,7 @@ const Carousel = () => {
         >
           <img
             loading="lazy"
-            src="/img/banner-1.jpg"
+            src="online-shop/img/banner-1.jpg"
             className="block w-full"
             alt="..."
           />
@@ -31,7 +31,7 @@ const Carousel = () => {
         >
           <img
             loading="lazy"
-            src="/img/banner-2.jpg"
+            src="online-shop/img/banner-2.jpg"
             className="block w-full"
             alt="..."
           />
