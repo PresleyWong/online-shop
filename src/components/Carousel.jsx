@@ -13,7 +13,12 @@ const Carousel = () => {
           data-te-carousel-item
           style={{ backfaceVisibility: "hidden" }}
         >
-          <img src="img/banner-1.jpg" className="block w-full" alt="..." />
+          <img
+            loading="lazy"
+            src="/img/banner-1.jpg"
+            className="block w-full"
+            alt="..."
+          />
           <div className="absolute inset-x-[15%] bottom-5 hidden py-5 text-center text-white md:block">
             <h5 className="text-xl">Apple</h5>
             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
@@ -24,7 +29,12 @@ const Carousel = () => {
           data-te-carousel-item
           style={{ backfaceVisibility: "hidden" }}
         >
-          <img src="img/banner-2.jpg" className="block w-full" alt="..." />
+          <img
+            loading="lazy"
+            src="/img/banner-2.jpg"
+            className="block w-full"
+            alt="..."
+          />
           <div className="absolute inset-x-[15%] bottom-5 hidden py-5 text-center text-white md:block">
             <h5 className="text-xl">Samsung</h5>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
