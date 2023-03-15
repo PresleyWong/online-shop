@@ -22,12 +22,6 @@ const Homepage = () => {
     content = (
       <>
         <Carousel />
-        <div className="d-flex flex-column bg-white py-4">
-          <p className="text-center px-5">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          </p>
-        </div>
         <h2 className="text-lg text-center font-bold mt-4 mb-3">New Arrival</h2>
 
         <FeatureProduct products={data.products} />
