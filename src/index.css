@@ -55,7 +55,7 @@ dt {
 
 /* Cart */
 .cart-container {
-  padding: 2rem 4rem;
+  padding: 2rem 2rem;
 }
 .cart-container h2 {
   font-weight: 400;
@@ -74,7 +74,7 @@ dt {
 .cart-container .titles {
   display: grid;
   align-items: center;
-  grid-template-columns: 3fr 1fr 1fr 1fr;
+  grid-template-columns: 3fr 2fr 1fr 2fr;
   column-gap: 0.5rem;
 }
 .cart-item {
